@@ -5,10 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Class Academy</title>
     <link rel="stylesheet" href="style/style.css">
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+
 </head>
 <body>
   <header>
-    <div id="advertisment"></div>
+    <div id="advertisment">
+        <h3>Free Courses 🌟 Sale Ends Soon, Get It Now</h3>
+    </div>
 
     <nav>
         <img src="images/svg/logo.svg" alt="logo" class="logo">
@@ -21,5 +28,143 @@
         </ul>
     </nav>
 </header>
+
+
+<!-- main sections -->
+
+<main>
+    <section>
+        <div class="slogan-group">
+            <img src="images/svg/sloganIcon.svg" alt="slogan icon">
+            <div class="slogan-box">
+                <img src="images/svg/powerIcon.svg" alt="power icon">
+                <h2><span>Empower</span> &nbsp; Your Future with Professional Online Learning </h2>
+            </div>
+        </div>
+
+        <div class="hero-section">
+            <!-- text and details side of the hero section -->
+            <div class="left-part">
+                <h1>Learn In-Demand Skills</h1>
+
+                <div class="tech-islam-business">
+                    <div class="islam">
+                        <h1>Islamic Studies</h1>
+                    </div>
+                    <div class="tech-business">
+                        <h1>Technology</h1>
+                        <h1>Business</h1>
+                    </div>
+
+                    <!-- <h1>Technology</h1> -->
+                </div>
+
+                <h3>Learn from Industry <span>Experts</span> and Enhance Your <span>Skills</span>.</h3>
+                <p>through expert-led courses designed to help you grow your career and knowledge.</p>
+                <div class="action-btns">
+                    <button>Explore Courses</button>
+                    <button>Enroll Now</button>
+                </div>
+
+                <!-- statastics -->
+
+                <div class="all-statastics">
+
+                    <!-- Courses Avalible -->
+                    <div class="stastics">
+                        <div class="img-quantity">
+                            <span id="course_quantity"></span>
+                            <img src="images/svg/course_icon.svg" alt="course_icon" id="course_icon">
+                        </div>
+    
+                        <p>Courses Available</p>
+                    </div>
+
+                    <!-- Active learners -->
+                    <div class="stastics">
+                        <div class="img-quantity">
+                            <span id="learner_quantity"></span>
+                            <img src="images/svg/student_icon.svg" alt="student_icon">
+                        </div>
+    
+                        <p>Active Learners</p>
+                    </div>
+
+                    <!-- Revelent Programms -->
+                    <div class="stastics">
+                        <div class="img-quantity">
+                            <span id="program_quantity"></span>
+                            <img src="images/svg/book_icon.svg" alt="book_icon">
+                        </div>
+    
+                        <p>Revelent Programs</p>
+                    </div>
+                </div>
+                
+            </div>
+
+            <!-- images and the icons side of the hero section -->
+            <div class="right-part">
+                <div class="hero-images">
+                    <div class="first-img"></div>
+                <div class="sec-img"></div>
+
+                <div class="decorataion_icons">
+                    <img src="images/svg/code_icon.svg" alt="code_icon" id="code_icon">
+                    <img src="images/svg/mousq_icon.svg" alt="mousq_icon" id="mousq_icon">
+                    <img src="images/svg/business_icon.svg" alt="business_icon" id="business_icon">
+                    <img src="images/svg/cours_decor_icon.svg" alt="course-decor_icon" id="course-decor_icon">
+                </div>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <section class="course-catagories">
+
+            <div class="course-catagories-title">
+                <h1>Explore Our Course Categories</h1>
+                <img src="images/svg/course_icon.svg" alt="course-icon-for-catagories">
+            </div>
+
+
+            <div class="swiper catagories">
+                <div class="swiper-wrapper slider">
+                    
+            </div>
+
+                
+                       
+                        <img src="images/svg/left.svg" alt="prev-icon" class="swiper-button-next swiper-button">
+                        <img src="images/svg/left.svg" alt="prev-icon" class="swiper-button-prev swiper-button"> 
+
+                </div>
+        </section> 
+
+
+        <section class="courses-section">
+            <div class="courses-title">
+                <h1>Explore Our Course Categories<img src="images/svg/book_icon.svg" alt="book-icon-for-catagories"></h1>
+                <p>Discover our most popular courses designed to help you build valuable skills and achieve your goals.</p>
+            </div>
+
+            <div class="courses"></div>
+
+            <button id="see_more">See More</button>
+            <button id="see_less">See Less</button>
+        </section>
+
+        <section class="whoweare">
+            <div class="container">
+                
+            </div>
+        </section>
+
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+<script src="app.js"></script>
+<script src="constants.js"></script>
 </body>
 </html>

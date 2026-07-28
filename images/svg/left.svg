@@ -1,0 +1,26 @@
+<svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g filter="url(#filter0_d_2062_15)">
+<circle cx="26" cy="24" r="24" fill="url(#paint0_linear_2062_15)"/>
+</g>
+<rect x="14" y="12" width="25" height="25" fill="url(#pattern0_2062_15)"/>
+<defs>
+<filter id="filter0_d_2062_15" x="0" y="0" width="52" height="52" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="2"/>
+<feGaussianBlur stdDeviation="1"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2062_15"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2062_15" result="shape"/>
+</filter>
+<pattern id="pattern0_2062_15" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_2062_15" transform="scale(0.02)"/>
+</pattern>
+<linearGradient id="paint0_linear_2062_15" x1="26" y1="0" x2="26" y2="48" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A031E0"/>
+<stop offset="1" stop-color="#B895CD"/>
+</linearGradient>
+<image id="image0_2062_15" width="50" height="50" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAArUlEQVR4nO3ZsQrCMBSF4dsntBSlgz57hxaFom+g8JeqYIe6n3s53xQy5YdkSBJhpgM4AQ/gCrSREdAAd36eQB8ZAfMmJG8M0H0XXyLmuBPzAi6RDY4RhWNE4RhROEaUY1Q5RpVjVFWL6f9cztooEjNFkZAxMimxtfi8i+0d9nNk4QgVjlDhCBWOUOEIFThCBI4QQZGIQ4nPUGBKH7ECbukjNltrBIZ1/J40q2kBWDtexLllMyUAAAAASUVORK5CYII="/>
+</defs>
+</svg>
